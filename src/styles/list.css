@@ -1,0 +1,72 @@
+.list{
+    margin:auto;
+    width: 700px;
+    background: rgb(242,242,242);
+    border: 3px solid lightgray;
+
+}
+.form{
+    margin:0;
+}
+.todo{
+    position: relative;
+    font-size: 60px;
+    color: rgb(230,209,210);
+    margin: 0 0 0 10px;
+}
+.listitem{
+    padding: 15px 0;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+.ordered{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    font-size: 25px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    list-style-type: none;
+}
+#item{
+    background: white;
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    outline: none;
+}
+.counter{
+    margin: 0 0 0 10px;
+}
+.submit{
+    background: white;
+    width: 100px;
+    height: 40px;
+    margin: 0 0 0px 10px;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
+.check{
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkborder{
+    margin: 0 15px 0 0;
+    padding: 3px 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-align: center;
+}
+.check:hover{
+    opacity:100;
+}
+.ex{
+    margin: 0 0 0 10px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
